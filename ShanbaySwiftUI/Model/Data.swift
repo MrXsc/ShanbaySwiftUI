@@ -12,11 +12,12 @@ import UIKit
 import SwiftUI
 
 
-let path = Bundle.main.path(forResource: "words", ofType: "plist")
-// 加载 plist 文件
-let words:NSArray? = NSArray(contentsOfFile: path!)
+//let path = Bundle.main.path(forResource: "words", ofType: "plist")
+//// 加载 plist 文件
+//let words:NSArray? = NSArray(contentsOfFile: path!)
 
 let articleData:[Article] =  load("article.json")
+let slideData:[Slide] =  load("slide.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data

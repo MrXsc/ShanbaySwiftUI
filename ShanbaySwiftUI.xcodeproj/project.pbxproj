@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B46C08D5247ABE01006207B3 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C08D4247ABE01006207B3 /* Slide.swift */; };
+		B46C08D6247AC78E006207B3 /* slide.json in Resources */ = {isa = PBXBuildFile; fileRef = B46C08D3247ABDD6006207B3 /* slide.json */; };
 		B4C03CD52365CA2800E32DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C03CD42365CA2800E32DC2 /* AppDelegate.swift */; };
 		B4C03CD72365CA2800E32DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C03CD62365CA2800E32DC2 /* SceneDelegate.swift */; };
 		B4C03CDA2365CA2800E32DC2 /* ShanbaySwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4C03CD82365CA2800E32DC2 /* ShanbaySwiftUI.xcdatamodeld */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B46C08D3247ABDD6006207B3 /* slide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = slide.json; sourceTree = "<group>"; };
+		B46C08D4247ABE01006207B3 /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		B4C03CD12365CA2800E32DC2 /* ShanbaySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShanbaySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C03CD42365CA2800E32DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4C03CD62365CA2800E32DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B4C03CFD2365DD2000E32DC2 /* article.json */,
+				B46C08D3247ABDD6006207B3 /* slide.json */,
 				B4C03CD42365CA2800E32DC2 /* AppDelegate.swift */,
 				B4C03CD62365CA2800E32DC2 /* SceneDelegate.swift */,
 				B4C03D052365EAF700E32DC2 /* MainTextView.swift */,
@@ -107,6 +112,7 @@
 			children = (
 				B4C03CF92365DD0E00E32DC2 /* Data.swift */,
 				B4C03CFA2365DD0E00E32DC2 /* Article.swift */,
+				B46C08D4247ABE01006207B3 /* Slide.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				B4C03CFE2365DD2000E32DC2 /* article.json in Resources */,
 				B4C03CE42365CA2900E32DC2 /* LaunchScreen.storyboard in Resources */,
 				B4C03CE12365CA2900E32DC2 /* Preview Assets.xcassets in Resources */,
+				B46C08D6247AC78E006207B3 /* slide.json in Resources */,
 				B4C03CDE2365CA2900E32DC2 /* Assets.xcassets in Resources */,
 				B4C03D0A2366A7BB00E32DC2 /* words.plist in Resources */,
 			);
@@ -205,6 +212,7 @@
 				B4C03D032365E18B00E32DC2 /* CardRoll.swift in Sources */,
 				B4C03D062365EAF700E32DC2 /* MainTextView.swift in Sources */,
 				B4C03CFC2365DD0E00E32DC2 /* Article.swift in Sources */,
+				B46C08D5247ABE01006207B3 /* Slide.swift in Sources */,
 				B4C03CDA2365CA2800E32DC2 /* ShanbaySwiftUI.xcdatamodeld in Sources */,
 				B4C03CFB2365DD0E00E32DC2 /* Data.swift in Sources */,
 				B4C03CD52365CA2800E32DC2 /* AppDelegate.swift in Sources */,
